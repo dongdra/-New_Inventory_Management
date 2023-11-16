@@ -1,0 +1,71 @@
+/* navbar.html css */
+.nav-link {
+    color: black !important;
+  }
+  
+
+/* Main_Page.html css */
+
+.Main-Page h1 {
+    text-align: center; 
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+.card {
+    width: 18rem;
+    /* 원하는 카드 너비 설정 */
+    margin: 0.5rem; /* 카드 간격 설정 */
+}
+
+/* Write_Page.html css */
+
+.Write-Page h1{
+    text-align: center; 
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.input-group {
+    width: 90%;
+    margin: 0 auto;
+    /* 가운데 정렬을 위한 스타일 */
+}
+
+.input-group-text {
+    width: 10%;
+    /* 제목 너비 설정 */
+    margin: 0 auto; /* 입력 필드를 수평으로 가운데 정렬 */
+    text-align: center; /* 입력 필드 안의 텍스트를 가운데 정렬 */
+    display: block; /* 블록 요소로 변경 */
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-container button {
+    margin-right: 22px; /* 버튼 사이 간격 조절 */
+}
+
+
+/* Table_Page.html css */
+.Table-Page h1{
+    text-align: center; 
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%; /* 원하는 너비로 조절 가능 */
+}
+
+/* td, th관련된것들을 전부  css */
+table td, table th {
+    text-align: center;
+    vertical-align: middle;
+}
